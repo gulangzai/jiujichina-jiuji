@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jiujichina</groupId>
+  <artifactId>jiujichina-jiuji</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.1</version>
+   
+  <modules>
+  	<module>jiujichina-jiuji-facade-user</module>
+  	<module>jiujichina-jiuji-service-user</module> 
+    <module>jiujichina-jiuji-parent</module>
+    
+   	<module>jiujichina-jiuji-facade-homepage</module>
+   	<module>jiujichina-jiuji-service-homepage</module>
+   	
+    <module>jiujichina-jiuji-web</module>
+    <module>jiujichina-jiuji-facade-tbcarousel</module> 
+    <module>jiujichina-jiuji-facade-tbproduct</module>
+    <module>jiujichina-jiuji-facade-tbclass</module>
+    <module>jiujichina-jiuji-facade-tbhot</module>
+    <module>jiujichina-jiuji-facade-tbspecial</module>
+    
+    <module>jiujichina-jiuji-service-tbcarousel</module>
+    <module>jiujichina-jiuji-service-tbproduct</module>
+    <module>jiujichina-jiuji-service-tbhot</module>
+    <module>jiujichina-jiuji-service-tbspecial</module>
+    <module>jiujichina-jiuji-service-tbclass</module>
+    <module>jiujichina-jiuji-vo</module>
+          
+  </modules>
+  
+</project>
